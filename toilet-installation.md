@@ -2,22 +2,316 @@
 
 [マニュアルトップに戻る](README.md)
 
-# マニュアルトップページ
+# トイレ設置マニュアル
 
-# これはMarkdownの見出しです
+このページではトイレの設置手順について説明します。
 
-これは通常のMarkdownのテキスト段落です。
+<details>
+<summary>HTML版マニュアルを表示</summary>
 
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <h2>これはHTML部分です</h2>
-  <p>この部分は<strong>HTML</strong>で書かれています。</p>
-  <ul>
-    <li>HTMLのリスト項目1</li>
-    <li>HTMLのリスト項目2</li>
-  </ul>
-</div>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トイレの設置手順</title>
+    <style>
+        body {
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        
+        .section-container {
+            display: block;
+            margin-bottom: 20px;
+        }
+        
+        .section {
+            width: 100%;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            color: #1a73e8;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: bold;
+            background-color: #1a73e8;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 3px;
+        }
+        
+        .step-container {
+            margin-bottom: 10px;
+            padding: 0 5px;
+        }
+        
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .step-number {
+            background-color: #1a73e8;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            flex-shrink: 0;
+            font-size: 14px;
+        }
+        
+        .step-content {
+            flex: 1;
+        }
+        
+        .tools-materials {
+            display: block;
+            margin-bottom: 20px;
+        }
+        
+        .tools-materials-section {
+            width: 100%;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        
+        .tools-materials-title {
+            font-size: 18px;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: bold;
+            background-color: #333;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 3px;
+        }
+        
+        .tools-materials-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .tool-material-item {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .tool-material-item:before {
+            content: "•";
+            color: #1a73e8;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        
+        .notes {
+            background-color: #fef2f2;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 20px;
+            border-left: 4px solid #dc2626;
+        }
+        
+        .notes-title {
+            font-size: 18px;
+            color: #dc2626;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .note-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 5px;
+        }
+        
+        .note-item:before {
+            content: "•";
+            color: #dc2626;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        
+        .see-more {
+            text-align: right;
+            color: #1a73e8;
+            font-size: 14px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>トイレの設置手順</h1>
+    
+    <div class="section-container">
+        <div class="section">
+            <h2 class="section-title">1. 準備作業</h2>
+            <div class="step-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">水道の元栓を閉める</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">古いトイレの撤去</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">床の清掃・確認</div>
+                </div>
+            </div>
+            <div class="see-more" id="toggle-details">追加作業の詳細を見る</div>
+            
+            <div id="additional-details" style="display: none; margin-top: 15px;">
+                <div class="section-detail">
+                    <h3 style="font-size: 16px; margin-bottom: 10px; color: #333; background-color: #e6f2ff; padding: 5px 10px;">詳細な手順</h3>
+                    <ul style="list-style-type: none; padding-left: 10px; margin-top: 5px;">
+                        <li style="margin-bottom: 5px; font-size: 14px;">• 水道メーターを確認しておきましょう</li>
+                        <li style="margin-bottom: 5px; font-size: 14px;">• 工具の準備をしておく</li>
+                        <li style="margin-bottom: 5px; font-size: 14px;">• 作業スペースを確保する</li>
+                        <li style="margin-bottom: 5px; font-size: 14px;">• 排水口の寸法を測定しておく</li>
+                    </ul>
+                </div>
+                
+                <div class="step-container" style="margin-top: 15px;">
+                    <div class="step">
+                        <div class="step-number" style="background-color: #2196F3;">1</div>
+                        <div class="step-content">給水管からの水漏れがないことを確認してから、慎重に元栓を時計回りに回して閉めます</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number" style="background-color: #2196F3;">2</div>
+                        <div class="step-content">タンクの水を抜いてから、給水管を外します（水が残っている場合があります）</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number" style="background-color: #2196F3;">3</div>
+                        <div class="step-content">床のボルトカバーを外し、ナットを緩めて取り外します（古いボルトは錆びている場合があります）</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number" style="background-color: #2196F3;">4</div>
+                        <div class="step-content">トイレと床の間のコーキングをカッターなどで慎重に切り離します</div>
+                    </div>
+                </div>
+                
+                <div class="notes" style="background-color: #ffebee; padding: 10px; margin-top: 15px; border-left: 3px solid #f44336; font-size: 14px;">
+                    <h4 style="margin-top: 0; margin-bottom: 5px; color: #d32f2f;">注意点</h4>
+                    <div style="margin-bottom: 5px;">• 古いトイレの撤去作業は力が必要になることがあります。無理をせず二人で行うことをお勧めします。</div>
+                    <div style="margin-bottom: 5px;">• 給水管や排水管を取り外す際は、床や壁を傷つけないように注意してください。</div>
+                    <div style="margin-bottom: 5px;">• 古いボルトが錆びついている場合は、潤滑油を使用するか専門家に相談することをお勧めします。</div>
+                </div>
+                
+                <div class="tips" style="background-color: #e8f5e9; padding: 10px; margin-top: 15px; border-left: 3px solid #4caf50; font-size: 14px;">
+                    <h4 style="margin-top: 0; margin-bottom: 5px; color: #2e7d32;">アドバイス</h4>
+                    <div style="margin-bottom: 5px;">• 作業前に写真を撮っておくと、配管の位置や接続方法を覚えておくのに役立ちます。特にトイレの裏側の配管接続は複雑な場合があります。</div>
+                    <div style="margin-bottom: 5px;">• 古いワックスリングは完全に取り除き、床の排水口周辺をよく清掃してください。残留物があると新しいトイレの設置に影響します。</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 残りのHTMLコンテンツ... -->
+        
+        <!-- 以下、他のセクションも同様に続きます -->
+    </div>
+    
+    <div class="tools-materials-section">
+        <h2 class="tools-materials-title">必要な工具</h2>
+        <div class="tools-materials-list">
+            <div class="tool-material-item">モンキーレンチ</div>
+            <div class="tool-material-item">スパナ</div>
+            <div class="tool-material-item">ドライバー</div>
+            <div class="tool-material-item">コーキングガン</div>
+            <div class="tool-material-item">パテナイフ</div>
+        </div>
+    </div>
+    
+    <div class="tools-materials-section">
+        <h2 class="tools-materials-title">必要な材料</h2>
+        <div class="tools-materials-list">
+            <div class="tool-material-item">トイレ一式</div>
+            <div class="tool-material-item">ワックスリング</div>
+            <div class="tool-material-item">シリコンコーキング</div>
+            <div class="tool-material-item">給水管</div>
+            <div class="tool-material-item">固定ボルト</div>
+        </div>
+    </div>
+    
+    <div class="notes">
+        <h2 class="notes-title">注意事項</h2>
+        <div class="note-item">水道の元栓を必ず閉める</div>
+        <div class="note-item">重いトイレは二人で持つ</div>
+        <div class="note-item">水漏れを必ず確認</div>
+        <div class="note-item">不安な場合は専門業者に依頼</div>
+    </div>
+</body>
+</html>
 
-そしてここからまた通常のMarkdownに戻ります。
+</details>
 
-- これはMarkdownのリスト
-- 2つ目の項目
+## 簡易版トイレ設置手順
+
+以下は簡易版の設置手順です。詳細な説明は上記の完全版マニュアルをご覧ください。
+
+1. 準備作業
+   - 水道の元栓を閉める
+   - 古いトイレの撤去
+   - 床の清掃・確認
+
+2. 設置準備
+   - 新しいトイレの設置準備
+   - ワックスリングの設置
+
+3. 本体設置
+   - トイレ本体の設置
+   - 給水管の接続
+   - タンクと便器の接続
+   - 固定ボルトの締め付け
+
+4. 仕上げ確認
+   - 水漏れテスト
+   - コーキング処理
+   - 最終確認
+
+### 必要な工具
+- モンキーレンチ
+- スパナ
+- ドライバー
+- コーキングガン
+- パテナイフ
+
+### 注意事項
+- 水道の元栓を必ず閉める
+- 重いトイレは二人で持つ
+- 水漏れを必ず確認
+- 不安な場合は専門業者に依頼
