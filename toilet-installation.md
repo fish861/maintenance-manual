@@ -2,6 +2,27 @@
 
 [マニュアルトップに戻る](README.md)
 
+# マニュアルトップページ
+
+通常のマークダウン文法で書かれた部分
+
+<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+  <h3>HTML形式で書かれたセクション</h3>
+  <p>ここではより複雑なフォーマットを<span style="color: red;">適用できます</span>。</p>
+  <table>
+    <tr>
+      <th>製品</th>
+      <th>設置時間</th>
+    </tr>
+    <tr>
+      <td>トイレ</td>
+      <td>約2時間</td>
+    </tr>
+  </table>
+</div>
+
+マークダウンに戻りました。
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
