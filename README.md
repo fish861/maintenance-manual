@@ -12,3 +12,11 @@
 
 このマニュアルは住宅設備の基本的な設置・修繕方法をまとめたものです。
 専門的な工事が必要な場合は、専門業者にご相談ください。
+
+# プロジェクトタイトル
+
+![プロジェクトロゴ](assets/images/logo.png)
+
+## スタイル適用例
+
+<link rel="stylesheet" href="assets/css/custom.css">
