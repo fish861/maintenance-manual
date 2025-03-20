@@ -4,7 +4,7 @@
 
 ## 目次
 
-- [トイレの設置方法](toilet-installation.md)
+- [トイレの設置方法](toilet-installation.html)
 - [フローリングの張替え](flooring-replacement.md)
 - [その他の設備について](other-equipment.md)
 
