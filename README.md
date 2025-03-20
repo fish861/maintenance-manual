@@ -5,7 +5,7 @@
 ## 目次
 
 - [トイレの設置方法](toilet-installation.html)
-- [フローリングの張替え](flooring-replacement.md)
+- [フローリングの張替え](flooring-replacement.html)
 - [その他の設備について](other-equipment.md)
 - [設置方法](test.html)
 ## このマニュアルについて
