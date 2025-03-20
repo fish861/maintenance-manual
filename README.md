@@ -7,7 +7,7 @@
 - [トイレの設置方法](toilet-installation.html)
 - [フローリングの張替え](flooring-replacement.md)
 - [その他の設備について](other-equipment.md)
-- [トイレの設置方法](test.html)
+- [設置方法](test.html)
 ## このマニュアルについて
 
 このマニュアルは住宅設備の基本的な設置・修繕方法をまとめたものです。
