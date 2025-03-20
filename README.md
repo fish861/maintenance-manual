@@ -6,8 +6,9 @@
 
 - [トイレの設置方法](toilet-installation.html)
 - [フローリングの張替え](flooring-replacement.html)
+- [DIY初心者におすすめの大工道具まとめ](kougu.html)
 - [その他の設備について](other-equipment.md)
-- [設置方法](test.html)
+
 ## このマニュアルについて
 
 このマニュアルは住宅設備の基本的な設置・修繕方法をまとめたものです。
